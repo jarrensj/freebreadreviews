@@ -9,6 +9,9 @@ export default function Page() {
       <p className="mb-4">
         {`free bread reviews! we review free bread but sometimes we review bread (that's not free) for free, too.`} 
       </p>
+      <p>
+        {`We have tried saving money by eating as much free bread as possible. We also have went to restaurants with amazing free bread and stuffed ourselves before our food has arrived.`}
+      </p>
       <div className="my-8">
         <BlogPosts />
       </div>
