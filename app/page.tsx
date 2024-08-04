@@ -7,7 +7,7 @@ export default function Page() {
         free bread reviews
       </h1>
       <p className="mb-4">
-        {`free bread reviews. we review free bread and we review bread for free.`}
+        {`free bread reviews! we review free bread but sometimes we review bread (that's not free) for free, too.`} 
       </p>
       <div className="my-8">
         <BlogPosts />
