@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function ArrowIcon() {
   return (
     <svg
@@ -54,7 +56,9 @@ export default function Footer() {
         </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        {new Date().getFullYear()} freebreadreviews
+        <Link href="/">
+          free bread reviews
+        </Link>
       </p>
     </footer>
   )
